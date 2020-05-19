@@ -1,0 +1,30 @@
+.container {
+    margin:10px;
+    /*display: flex;*/
+    width: 500px;
+    height: 200px;
+    background-color: #eee;
+    color: #666;
+    text-align: center;
+    .item {
+	    height: 100px;
+	    margin: 0;
+	    &.item1 {
+	    	flex: 0 0  50%;
+	    	/*width: 50%;*/
+	    	background-color:#61dafb;
+	    }
+	    &.item2 {
+	    	/*flex: 0 0 50%;*/
+	    	/*flex-grow: 0;*/
+	    	/*flex-shrink: 0;*/
+	    	/*width: 50%;*/
+		    background-color:#42b983;
+	    }
+	    &.item3 {
+	    	/*width: 50%;*/
+	    	width: 33.3%;
+		    background-color:#61dafb;
+	    }
+	}
+}
